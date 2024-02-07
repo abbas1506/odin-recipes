@@ -1,0 +1,76 @@
+* {
+    margin: 0px 0px;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 50px;
+    background-color: burlywood;
+}
+
+.main-title {
+    color: gold;
+    background-color: maroon;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 30px;
+    font-size: 50px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px -5px #2c2c2c;
+
+}
+
+.homepage-gif {
+    background-color: salmon;
+    margin-top: 30px;
+    width: auto;
+    height: 60vh;
+    background-image: url(assets/recipe.jpg);
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px -5px #2c2c2c;
+    text-align: end;
+    
+    /* margin-bottom: 30px; */
+}
+
+.homepage-gif:hover {
+    background-image: url(assets/recipe.gif);
+}
+
+
+.recipe-list-card {
+    background-color: maroon;
+    margin-top: 30px;
+    width: auto;
+    height: 120px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px -5px #2c2c2c;
+
+}
+
+.recipe-list-title {
+    color:salmon;
+    text-align: center;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    
+}
+
+li {
+    display: inline-block;
+    color:antiquewhite;
+    padding: 15px;
+    
+    
+}
+
+li a {
+    color: white;
+    text-align: center;
+    
+}
